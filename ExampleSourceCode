@@ -1,0 +1,26 @@
+int celsiusToFarenheit(int input){
+    input = input*(9.0/5.0);
+    return input + 32;
+}
+
+int main(){
+    int size = 500;
+    for(int it = 0; it<size; it++){
+        celsiusToFarenheit(it);
+    }
+    int num = 10*(5+5);
+    num = num / num;
+    //Testing comments
+    num+=100;
+    while(num>celsiusToFarenheit(5*(10+10))){
+        if (num%2==0)
+        {
+            num+=2;
+        }else{
+            num+=3;
+        }
+        
+    }
+    /*Test;,=12345*/
+    return 0;
+}
